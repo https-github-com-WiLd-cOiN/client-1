@@ -1,6 +1,6 @@
 build: bundle
 
-release: clean bundle
+: clean bundle
 	mkdir build/
 	git archive HEAD . | tar x -C build/
 	cp js/bundle.js build/js/bundle.js
